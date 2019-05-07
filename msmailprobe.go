@@ -151,7 +151,7 @@ func main() {
 	}
 
 	if examplesCommand.Parsed() {
-		fmt.Println("./msmailprobe identify -h mail.target.com")
+		fmt.Println("./msmailprobe identify -t mail.target.com")
 		fmt.Println("./msmailprobe userenum --onprem -t mail.target.com -U users.txt -o validusers.txt --threads 20")
 		fmt.Println("./msmailprobe userenum --onprem -t mail.target.com -u admin")
 		fmt.Println("./msmailprobe userenum --o365 -E emailList.txt -o validemails.txt --threads 50")
